@@ -1,0 +1,59 @@
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>shaman-dodge</title>
+    <link rel="stylesheet" href="board.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="setup_board.js"></script>
+  </head>
+  <body>
+    <div class="center">
+    <table class="board">
+      <tr>
+        <td>
+          <div class="piece">
+            <div class="unit scrapper"></div>
+          </div>
+        </td>
+        <td class="dark">
+          <div class="piece">
+            <div class="unit cultist"></div></td>
+          </div>
+        <td></td>
+        <td class="dark">
+          <div class="piece">
+            <div class="circle"></div>
+            <div class="unit portal_keeper"></div>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td onclick="onclickTd(this)" class="dark"></td>
+        <td></td>
+        <td class="dark"></td>
+        <td>
+          <div class="piece">
+            <div class="unit harley"></div>
+          </div>
+        </td>
+        <td class="dark"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="dark">
+          <div class="piece">
+            <div class="triangle"/>
+              <div class="unit dryad"/>
+          </div>
+        </td>
+        <td></td>
+        <td class="dark"></td>
+        <td></td>
+      </tr>
+    </table>
+    <div class="summon-button">xyz</div>
+    </div>
+  </body>
+</html>
